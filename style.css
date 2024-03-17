@@ -1,5 +1,48 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+
+  html,
+  body{
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     align-content: center;
+  }
+
+title{
+  align-self: center;
 }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+footer {
+  text-align: center;
+  background-color: red;
+  color: black;
+  padding: 50px;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer .footer-sections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-sections div {
+  padding: 2rem 0rem;
+  top: 0;
+}
+
+.footer .footer-sections p {
+  font-size: 14px;
+}
+
